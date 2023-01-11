@@ -1,0 +1,5 @@
+This simple app creates a search engine by connecting with ElasticSearch and indexing local files containing Mall products.
+
+The main search query is simple, it takes a user input and searches it against the "title" field in the elastic index created. Filtering is done on the "availablity" field. The main search query to demonstrate sorting sorts the documents by default on the "price" field by descending order. This query building can be found on the ElasticService file in Services folder.
+
+For easier reading of the elastic query created a method that translates the NEST query to Elastic JSON format query is found on the ElasticHelper static class in the Helpers subfolder.
