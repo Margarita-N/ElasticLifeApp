@@ -5,7 +5,7 @@ namespace ElasticLifeApp.Services
 {
     public class DataRepository
     {
-        private const string DATA_REPO_DIR = @"C:\Users\Margarita\Gjirafa\Resources\MallProducts";
+        private const string DATA_REPO_DIR = @"";
         private const int PAGE_SIZE = 10000;
 
         private List<Product> _data;
