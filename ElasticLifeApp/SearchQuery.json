@@ -1,0 +1,1 @@
+{"query":{"bool":{"filter":[{"term":{"availability.keyword":{"value":"in stock"}}}],"must":[{"match":{"title":{"query":"laptop"}}}]}},"sort":[{"price":{"order":"desc"}}]}
